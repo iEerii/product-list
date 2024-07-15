@@ -1,0 +1,47 @@
+.dessertContainer picture img {
+    border-radius: 1rem;
+    width: 100%;
+}
+
+.dessertContainer__dessert {
+    position: relative;
+}
+
+.dessertContainer__button {
+    align-items: center;
+    background-color: var(--Rose50);
+    border: .1rem solid var(--Rose400);
+    border-radius: 5rem;
+    bottom: -2rem;
+    cursor: pointer;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    gap: .6rem;
+    padding: 1rem 2.5rem;
+    position: absolute;
+    right: 8.5rem;
+}
+
+.pContainer {
+    margin-top: 3rem;
+    line-height: 2rem;
+}
+
+.dessertName {
+    color: var(--Rose400);
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.dessertDescription {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.price {
+    color: var(--Red);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
